@@ -1,7 +1,8 @@
 
 # SEM 4 All Practicals
 
- [![IoT Practicals](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=IoT-Practicals&logoColor=white)](https://github.com/PushkraJ99/IOT)
+### IoT Practicals are Here
+ [![IoT Practicals](https://img.shields.io/badge/IoT-Practicals-100000?style=for-the-badge&logo=IoT-Practicals&logoColor=white)](https://github.com/PushkraJ99/IOT)
 
 
 ## Authors
