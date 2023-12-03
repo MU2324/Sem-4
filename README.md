@@ -5,7 +5,7 @@
  [![IoT Practicals](https://img.shields.io/badge/IoT-Practicals-100000?style=for-the-badge&logo=IoT-Practicals&logoColor=white)](https://github.com/PushkraJ99/IOT)
 
 
-## Authors
+## Author
 [![TryHackMe](https://img.shields.io/badge/tryhackme-5AC710?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/PushkaraJ)
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/you_are_not_goodlooking_but_he)
