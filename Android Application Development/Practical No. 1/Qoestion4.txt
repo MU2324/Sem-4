@@ -1,0 +1,37 @@
+ Program to study loop statements- for,while,do-while in kotlin
+
+While
+
+fun main(){
+    var x = 1;
+    while(x<=10)
+    {
+        println(x);
+        x++;
+    }
+}
+
+Do while
+
+fun main(){
+    var x = 1;
+    do{
+        println(x);
+        x++;
+    } while(x<10);
+}
+
+For
+
+fun main(){
+    var number =arrayOf (5,10,15,20,25)
+    var sum=0
+    for(item  in number) {
+        println(item)
+        sum = sum + item
+    }
+    println("$sum")
+    for(items in 1 .. 20){
+        println(items)
+    }
+}

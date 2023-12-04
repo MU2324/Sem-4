@@ -1,0 +1,14 @@
+		Android Application Development-Practical No.1
+
+i)Defining  different types of variables and performing arithmentic operations
+ii)Program to receive user input and display result
+iii)Program to study conditional statements-: if,nested if,if-else-if, and 'when' statement
+iv) Program to study loop statements- for,while,do-while in kotlin
+v) Declaring functions and returning values from functions in kotlin
+vi)Working with class,objects,constructors and inheritance in kotlin
+vii)Working with delegation and extension functions and companion object.
+viii)Working with collections (List,Map,Set)  in kotlin.
+
+
+
+

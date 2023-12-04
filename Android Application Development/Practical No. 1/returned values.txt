@@ -1,0 +1,21 @@
+v) Declaring functions and returning values from functions in kotlin
+
+fun myfunction():Int
+{
+    println("This is my Function")
+    return 10;
+}
+
+fun myfunction2(x:Int,y:Int):Int
+{
+    return x*y;
+}
+
+fun main()
+{
+    var x:Int=myfunction();
+    println("Value retured by myfunction is $x")
+    var s:Int=myfunction2(x=10,y=10);
+    println("Value returned by myfunction2 is $s")
+
+}

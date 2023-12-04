@@ -1,0 +1,25 @@
+fun main(){
+    var mutableList1=mutableListOf("one","two","three",4)
+
+    println("--Mutable List")
+    for(item in mutableList1){
+        println(item)
+    }
+
+    println("--After Adding element in mutable list")
+    mutableList1.add(0,"Zero")
+    mutableList1.add("Five")
+
+    for(item in mutableList1){
+        println(item)
+    }
+
+    mutableList1.removeAt(2)
+    mutableList1.removeAt(4)
+
+    println("--after removing updated mutable list")
+    for(item in mutableList1){
+        println(item)
+
+    }
+}

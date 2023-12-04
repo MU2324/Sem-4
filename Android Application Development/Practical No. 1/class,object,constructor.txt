@@ -1,0 +1,14 @@
+class Student(val rollno:Int,var name:String, var address:String)
+{
+    fun display()
+    {
+        println("The students's roll number is $rollno")
+        println("The students's name is $name")
+        println("The students's from $address")
+    }
+}
+fun main()
+{
+    var c= Student(rollno=20,name="Sanika Munankar",address="Vengurla")
+    c.display()
+}

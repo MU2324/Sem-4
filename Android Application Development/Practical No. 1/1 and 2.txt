@@ -1,0 +1,44 @@
+i)Defining  different types of variables and performing arithmentic operations
+
+fun main() {
+
+    val num1 = 12
+    val num2 = 3
+    var result: Int
+
+    result = num1 + num2
+    println("Addition of num1 + num2 is $result")
+
+    val num3 = 12.4
+    val num4 = 3.5
+    var result1: Double
+
+    result1 = num3 - num4
+    println("Substraction of num3 - num4 is $result1")
+
+    val num5 = 5.75F
+    val num6 = 3.75F
+    var result2: Float
+
+    result2 = num5 * num6
+    println("Multiplication of num5 * num6 is $result2")
+
+    val num7 = 55000000000L
+    val num8 = 15000000000L
+    var result3: Long
+
+    result3 = num7 / num8
+    println("Division of num7 / num8 is $result3")
+
+    val num9 = 12
+    val num10 = 3
+    var result4: Int
+
+    result4 = num9 % num10
+    println("Module of num9 % num10 is $result4")
+}
+
+
+
+
+#companion

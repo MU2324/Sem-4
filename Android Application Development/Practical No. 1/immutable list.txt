@@ -1,0 +1,36 @@
+fun main(){
+
+    var List1=listOf(1,2,3,4,5,6)
+
+    //Traversing MutableList
+    println("--Immutable List")
+    for(item in List1)
+    {
+        println(item)
+    }
+
+    var i=List1.indexOf(5)
+    if(i==1)
+    {
+        println("Element is not part of list1")
+    }
+    else{
+        println("Element 5 is available at index $i in list1")
+    }
+
+    var sublist=List1.subList(2,6)
+    println("--List from index 2 to 6")
+    for(item in sublist){
+        println(item)
+    }
+
+
+    var it: ListIterator<Int> = List1.listIterator()
+    while (it.hasNext()) {
+        val i = it.next()
+        print("$i ")
+    }
+
+
+
+}

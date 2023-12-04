@@ -1,0 +1,21 @@
+package collections
+
+fun main()
+{
+    //Immutable Map
+    var map1=mapOf(1 to "Roll No. 1",2 to "Roll No. 2",3 to "Roll No. 3")
+    println("This is Immutable map")
+    for(item in map1.keys)
+    {
+        println("Key is $item and its associated value is "+map1.get(item))
+    }
+    println()
+    //Mutable map
+    var mutmap=mutableMapOf(1 to "Roll No. 1",2 to "Roll No. 2",3 to "Roll No. 3",4 to "Roll No. 4")
+    println("This is Mutable map")
+    mutmap.put(5,"Roll No. 5")
+    for(item in mutmap.keys)
+    {
+        println("Key is $item and its associated value is "+mutmap.get(item))
+    }
+}

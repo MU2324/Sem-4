@@ -1,0 +1,13 @@
+ii)Program to receive user input and display result
+
+fun main()
+{
+    println("Enter First Number")
+    var num1 =readLine()
+    var n1=Integer.parseInt(num1)
+    println("Enter Second Number")
+    var num2 =readLine();
+    var n2=Integer.parseInt(num2)
+
+    println("Addition of $num1 and $num2 is "+(n1+n2));
+}

@@ -1,0 +1,48 @@
+package collections
+
+fun main()
+//immutable set
+{
+    var set1=setOf(10,20,30,40,50,60)
+    var set2=setOf(20,30,40)
+
+    println("Immutable set1")
+    for(item in set1)
+    {
+        println(item)
+    }
+
+    println("Immutable set1")
+    for(item in set2)
+    {
+        println(item)
+    }
+
+    println("size of set1 is : "+set1.size)
+    println("size of set2 is : "+set2.size)
+    println("set1 contains 40 is "+set1.contains(40))
+    println("set1 contains all elements from set2 is "+set1.containsAll(set2))
+    println("set2 contains all elements from set1 is "+set2.containsAll(set1))
+
+    //mutable set
+
+    var mutset1= mutableSetOf(10,20,30,40,50)
+
+           mutset1.add(60)
+           mutset1.addAll(set2)
+
+           println("Mutable set")
+           for(item in mutset1)
+           {
+               println(" "+item+" ")
+           }
+
+           mutset1.remove(10)
+           mutset1.removeAll(set2)
+           println("Mutable list after removing elements")
+           for(item in mutset1)
+              {
+                   print(" "+item+" ")
+              }
+
+}

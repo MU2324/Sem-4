@@ -1,0 +1,26 @@
+open class parentclass
+{
+    var x:Int=5
+    fun show()
+    {
+        println("$x from parentclass")
+    }
+}
+class childclass:parentclass()
+{
+    var m:Int=10
+    fun display()
+    {
+        println("$x from childclass")
+        println("$m from childclass")
+    }
+}
+fun main()
+{
+    var c=childclass()
+    c.x=100
+    c.display()
+    c.show()
+    var p=parentclass()
+    p.show()
+}

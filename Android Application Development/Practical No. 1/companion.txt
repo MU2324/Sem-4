@@ -1,0 +1,27 @@
+class myclass
+{
+    companion object
+    {
+        fun method1()
+        {
+            println("Im inside method 1")
+        }
+
+        fun method2()
+        {
+            println("Im inside method 2")
+        }
+
+        var v1:Int=5
+
+    }
+}
+
+fun main()
+{
+    myclass.method1()
+    myclass.method2()
+
+    print(myclass.v1)
+}
+

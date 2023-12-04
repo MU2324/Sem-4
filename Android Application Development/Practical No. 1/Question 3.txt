@@ -1,0 +1,61 @@
+iii)Program to study conditional statements-: if,nested if,if-else-if, and 'when' statement
+
+If statement
+
+fun main(){
+    val a = 10
+
+    if(a%2==0) {
+        print("$a is even number.")
+    }
+}
+
+If -else-if
+
+fun main() {
+    val a = 15
+
+    if(a%4==0) {
+        print("$a is divisible by 4.")
+    } else if(a%6==0) {
+        print("$a is divisible by 6.")
+    } else if(a%3==0) {
+        print("$a is divisible by 3.")
+    } else {
+        print("Try it again")
+    }
+}
+
+Nested if
+
+
+fun main(){
+    var a = 10;
+    if(a%2==0) {
+        print("$a is even number.");
+
+        if (a % 2 != 0) {
+            print("$a is odd number.");
+        }
+    }
+}
+
+When
+
+fun main(){
+    var day=2;
+    var dayname:String= when (day)
+    {
+        1->"Sunday"
+        2->"Monday"
+        3->"Tuesday"
+        4->"Wednesday"
+        5->"Thursday"
+        6->"Friday"
+        7->"Saturday"
+
+
+        else -> {"Invalid day number"}
+    }
+    println("Dayname is $dayname");
+}

@@ -1,0 +1,11 @@
+fun main () {
+    var num = arrayOf(10,20)
+    var sum = 0
+    println("For Loop")
+    for (item in num)
+    {
+        println(item)
+        sum = sum+item
+    }
+    println( "$sum")
+}

@@ -1,0 +1,17 @@
+Working with delegation and expression functions and companion object
+
+Expression
+
+class myclass2{
+    fun method1(){
+        println("I am inside method1()");
+    }
+}
+fun  myclass2.method2(){
+    println("I am inside method2()");
+}
+fun main(){
+    var m=myclass2()
+    m.method1()
+    m.method2()
+}

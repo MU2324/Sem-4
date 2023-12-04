@@ -1,0 +1,27 @@
+interface Interface
+{
+    fun method()
+}
+class myclass:Interface
+{
+    override fun method()
+    {
+        println("This is Overridden method")
+    }
+}
+//Delegation
+class child(b:Interface):Interface by b
+{
+    fun showchild()
+    {
+        println("This is showchild() from childclass")
+    }
+}
+fun main()
+{
+    var b=myclass()
+    child(b).method()
+    var c=child(b)
+    c.showchild()
+    c.method()
+}
