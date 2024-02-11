@@ -19,7 +19,7 @@
 Clone the Repository and Enjoy
 
 ```bash
-  git clone https://github.com/Err0rExpl0it/Sem-4.git
+  git clone https://github.com/MU2324/Sem-4.git
 ```
 
 
